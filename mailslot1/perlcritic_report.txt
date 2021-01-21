@@ -1,28 +1,29 @@
-lib/REPORT.pm~|~2~|~1~|~1~|~No package-scoped "$VERSION" variable found~|~See page 404 of PBP~|~Modules::RequireVersionVar~||~
-lib/REPORT.pm~|~2~|~65~|~35~|~Regular expression without "/s" flag~|~See pages 240,241 of PBP~|~RegularExpressions::RequireDotMatchAnything~||~
-lib/REPORT.pm~|~3~|~65~|~35~|~Regular expression without "/x" flag~|~See page 236 of PBP~|~RegularExpressions::RequireExtendedFormatting~||~
-lib/REPORT.pm~|~2~|~65~|~35~|~Regular expression without "/m" flag~|~See page 237 of PBP~|~RegularExpressions::RequireLineBoundaryMatching~||~
-lib/REPORT.pm~|~2~|~68~|~5~|~"unless" block used~|~See page 97 of PBP~|~ControlStructures::ProhibitUnlessBlocks~||~
-lib/REPORT.pm~|~2~|~73~|~26~|~Regular expression without "/s" flag~|~See pages 240,241 of PBP~|~RegularExpressions::RequireDotMatchAnything~||~
-lib/REPORT.pm~|~2~|~73~|~26~|~Regular expression without "/m" flag~|~See page 237 of PBP~|~RegularExpressions::RequireLineBoundaryMatching~||~
-lib/REPORT.pm~|~2~|~78~|~23~|~Useless use of $_~|~$_ should be omitted when calling "defined"~|~BuiltinFunctions::ProhibitUselessTopic~||~
-lib/REPORT.pm~|~2~|~78~|~38~|~Useless use of $_~|~$_ should be omitted when matching a regular expression~|~RegularExpressions::ProhibitUselessTopic~||~
-lib/REPORT.pm~|~2~|~78~|~44~|~Regular expression without "/s" flag~|~See pages 240,241 of PBP~|~RegularExpressions::RequireDotMatchAnything~||~
-lib/REPORT.pm~|~3~|~78~|~44~|~Regular expression without "/x" flag~|~See page 236 of PBP~|~RegularExpressions::RequireExtendedFormatting~||~
-lib/REPORT.pm~|~2~|~78~|~44~|~Regular expression without "/m" flag~|~See page 237 of PBP~|~RegularExpressions::RequireLineBoundaryMatching~||~
-lib/REPORT.pm~|~2~|~160~|~40~|~List of quoted literal words~|~Use 'qw()' instead~|~CodeLayout::ProhibitQuotedWordLists~||~
-lib/REPORT.pm~|~3~|~186~|~9~|~"die" used instead of "croak"~|~See page 283 of PBP~|~ErrorHandling::RequireCarping~||~
-lib/REPORT.pm~|~2~|~186~|~13~|~Magic punctuation variable $! used in interpolated string~|~See page 79 of PBP~|~Variables::ProhibitPunctuationVars~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "VERSION" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "SYNOPSIS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "SUBROUTINES/METHODS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "DIAGNOSTICS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "CONFIGURATION AND ENVIRONMENT" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "DEPENDENCIES" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "INCOMPATIBILITIES" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "BUGS AND LIMITATIONS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "AUTHOR" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/REPORT.pm~|~2~|~194~|~1~|~Missing "LICENSE AND COPYRIGHT" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~5~|~1~|~1~|~Package declaration must match filename~|~Correct the filename or package statement~|~Modules::RequireFilenameMatchesPackage~||~
+lib/file_processor.pm~|~2~|~1~|~1~|~No package-scoped "$VERSION" variable found~|~See page 404 of PBP~|~Modules::RequireVersionVar~||~
+lib/file_processor.pm~|~2~|~65~|~35~|~Regular expression without "/s" flag~|~See pages 240,241 of PBP~|~RegularExpressions::RequireDotMatchAnything~||~
+lib/file_processor.pm~|~3~|~65~|~35~|~Regular expression without "/x" flag~|~See page 236 of PBP~|~RegularExpressions::RequireExtendedFormatting~||~
+lib/file_processor.pm~|~2~|~65~|~35~|~Regular expression without "/m" flag~|~See page 237 of PBP~|~RegularExpressions::RequireLineBoundaryMatching~||~
+lib/file_processor.pm~|~2~|~68~|~5~|~"unless" block used~|~See page 97 of PBP~|~ControlStructures::ProhibitUnlessBlocks~||~
+lib/file_processor.pm~|~2~|~73~|~26~|~Regular expression without "/s" flag~|~See pages 240,241 of PBP~|~RegularExpressions::RequireDotMatchAnything~||~
+lib/file_processor.pm~|~2~|~73~|~26~|~Regular expression without "/m" flag~|~See page 237 of PBP~|~RegularExpressions::RequireLineBoundaryMatching~||~
+lib/file_processor.pm~|~2~|~78~|~23~|~Useless use of $_~|~$_ should be omitted when calling "defined"~|~BuiltinFunctions::ProhibitUselessTopic~||~
+lib/file_processor.pm~|~2~|~78~|~38~|~Useless use of $_~|~$_ should be omitted when matching a regular expression~|~RegularExpressions::ProhibitUselessTopic~||~
+lib/file_processor.pm~|~2~|~78~|~44~|~Regular expression without "/s" flag~|~See pages 240,241 of PBP~|~RegularExpressions::RequireDotMatchAnything~||~
+lib/file_processor.pm~|~3~|~78~|~44~|~Regular expression without "/x" flag~|~See page 236 of PBP~|~RegularExpressions::RequireExtendedFormatting~||~
+lib/file_processor.pm~|~2~|~78~|~44~|~Regular expression without "/m" flag~|~See page 237 of PBP~|~RegularExpressions::RequireLineBoundaryMatching~||~
+lib/file_processor.pm~|~2~|~160~|~40~|~List of quoted literal words~|~Use 'qw()' instead~|~CodeLayout::ProhibitQuotedWordLists~||~
+lib/file_processor.pm~|~3~|~186~|~9~|~"die" used instead of "croak"~|~See page 283 of PBP~|~ErrorHandling::RequireCarping~||~
+lib/file_processor.pm~|~2~|~186~|~13~|~Magic punctuation variable $! used in interpolated string~|~See page 79 of PBP~|~Variables::ProhibitPunctuationVars~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "VERSION" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "SYNOPSIS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "SUBROUTINES/METHODS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "DIAGNOSTICS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "CONFIGURATION AND ENVIRONMENT" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "DEPENDENCIES" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "INCOMPATIBILITIES" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "BUGS AND LIMITATIONS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "AUTHOR" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/file_processor.pm~|~2~|~194~|~1~|~Missing "LICENSE AND COPYRIGHT" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
 t/report.t~|~2~|~1~|~1~|~No package-scoped "$VERSION" variable found~|~See page 404 of PBP~|~Modules::RequireVersionVar~||~
 t/report.t~|~2~|~30~|~35~|~Quotes used with a string containing no non-whitespace characters~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitEmptyQuotes~||~
 t/report.t~|~2~|~34~|~35~|~Quotes used with a string containing no non-whitespace characters~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitEmptyQuotes~||~
