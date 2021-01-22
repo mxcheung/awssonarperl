@@ -11,7 +11,6 @@ lib/Sample/Project.pm~|~2~|~25~|~1~|~Missing "INCOMPATIBILITIES" section in POD~
 lib/Sample/Project.pm~|~2~|~25~|~1~|~Missing "BUGS AND LIMITATIONS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
 lib/Sample/Project.pm~|~2~|~25~|~1~|~Missing "AUTHOR" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
 lib/Sample/Project.pm~|~2~|~25~|~1~|~Missing "LICENSE AND COPYRIGHT" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
-lib/Sample/Project.pm~|~4~|~62~|~1~|~Module does not end with "1;"~|~Must end with a recognizable true value~|~Modules::RequireEndWithOne~||~
 t/Project.t~|~4~|~1~|~1~|~Code not contained in explicit package~|~Violates encapsulation~|~Modules::RequireExplicitPackage~||~
 t/Project.t~|~2~|~1~|~1~|~No package-scoped "$VERSION" variable found~|~See page 404 of PBP~|~Modules::RequireVersionVar~||~
 t/Project.t~|~5~|~5~|~1~|~Code before strictures are enabled~|~See page 429 of PBP~|~TestingAndDebugging::RequireUseStrict~||~
