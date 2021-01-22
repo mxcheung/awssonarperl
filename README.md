@@ -7,6 +7,15 @@ export PATH="/home/ec2-user/perl5/lib/perl5:$PATH"
 export PERL5LIB=/home/ec2-user/perl5/lib/perl5
 export PATH="/home/ec2-user/perl5/bin:$PATH"
 
+# Start up
+
+
+cd /home/ec2-user/awsmc/awssonarperl/sonar-perl
+docker-compose up -d sonarperl
+
+http://ec2-13-54-11-135.ap-southeast-2.compute.amazonaws.com:9000/projects?sort=-analysis_date
+
+
 
 # Test
 
