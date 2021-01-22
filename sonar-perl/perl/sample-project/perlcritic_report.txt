@@ -1,0 +1,46 @@
+lib/FutureTransactions.pm~|~2~|~1~|~1~|~No package-scoped "$VERSION" variable found~|~See page 404 of PBP~|~Modules::RequireVersionVar~||~
+lib/FutureTransactions.pm~|~3~|~10~|~5~|~@ISA used instead of "use base"~|~See page 360 of PBP~|~ClassHierarchies::ProhibitExplicitISA~||~
+lib/FutureTransactions.pm~|~4~|~11~|~1~|~Symbols are exported by default~|~Use '@EXPORT_OK' or '%EXPORT_TAGS' instead~|~Modules::ProhibitAutomaticExportation~||~
+lib/FutureTransactions.pm~|~2~|~13~|~1~|~Missing "VERSION" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/FutureTransactions.pm~|~2~|~13~|~1~|~Missing "SUBROUTINES/METHODS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/FutureTransactions.pm~|~2~|~13~|~1~|~Missing "DIAGNOSTICS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/FutureTransactions.pm~|~2~|~13~|~1~|~Missing "CONFIGURATION AND ENVIRONMENT" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/FutureTransactions.pm~|~2~|~13~|~1~|~Missing "DEPENDENCIES" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/FutureTransactions.pm~|~2~|~13~|~1~|~Missing "INCOMPATIBILITIES" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/FutureTransactions.pm~|~2~|~13~|~1~|~Missing "BUGS AND LIMITATIONS" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/FutureTransactions.pm~|~2~|~13~|~1~|~Missing "AUTHOR" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/FutureTransactions.pm~|~2~|~13~|~1~|~Missing "LICENSE AND COPYRIGHT" section in POD~|~See pages 133,138 of PBP~|~Documentation::RequirePodSections~||~
+lib/FutureTransactions.pm~|~2~|~43~|~44~|~3 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~44~|~39~|~4 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~44~|~44~|~7 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~45~|~39~|~8 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~45~|~44~|~11 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~46~|~39~|~12 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~46~|~44~|~15 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~47~|~39~|~16 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~47~|~44~|~19 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~48~|~39~|~20 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+lib/FutureTransactions.pm~|~2~|~81~|~40~|~Double-sigil dereference~|~See page 228 of PBP~|~References::ProhibitDoubleSigils~||~
+lib/FutureTransactions.pm~|~2~|~99~|~46~|~Magic punctuation variable $! used in interpolated string~|~See page 79 of PBP~|~Variables::ProhibitPunctuationVars~||~
+lib/FutureTransactions.pm~|~2~|~103~|~5~|~Return value of "close" ignored~|~Check the return value of "close" for success~|~InputOutput::RequireCheckedClose~||~
+lib/FutureTransactions.pm~|~2~|~119~|~30~|~Quotes used with a string containing no non-whitespace characters~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitEmptyQuotes~||~
+lib/FutureTransactions.pm~|~2~|~120~|~31~|~Quotes used with a string containing no non-whitespace characters~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitEmptyQuotes~||~
+lib/FutureTransactions.pm~|~4~|~131~|~1~|~Subroutine "write_csv" does not end with "return"~|~See page 197 of PBP~|~Subroutines::RequireFinalReturn~||~
+lib/FutureTransactions.pm~|~2~|~134~|~51~|~Magic punctuation variable $! used in interpolated string~|~See page 79 of PBP~|~Variables::ProhibitPunctuationVars~||~
+lib/futuretransactions.pl~|~2~|~1~|~1~|~No package-scoped "$VERSION" variable found~|~See page 404 of PBP~|~Modules::RequireVersionVar~||~
+lib/futuretransactions.pl~|~2~|~6~|~9~|~Quotes used with a noisy string~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitNoisyQuotes~||~
+lib/futuretransactions.pl~|~4~|~12~|~1~|~Subroutine "main" does not end with "return"~|~See page 197 of PBP~|~Subroutines::RequireFinalReturn~||~
+lib/futuretransactions.pl~|~2~|~16~|~51~|~Postfix control "unless" used~|~See pages 96,97 of PBP~|~ControlStructures::ProhibitPostfixControls~||~
+lib/futuretransactions.pl~|~2~|~17~|~51~|~Postfix control "unless" used~|~See pages 96,97 of PBP~|~ControlStructures::ProhibitPostfixControls~||~
+lib/futuretransactions.pl~|~2~|~22~|~23~|~Double-sigil dereference~|~See page 228 of PBP~|~References::ProhibitDoubleSigils~||~
+lib/futuretransactions.pl~|~2~|~27~|~22~|~Double-sigil dereference~|~See page 228 of PBP~|~References::ProhibitDoubleSigils~||~
+t/futuretransactions.t~|~2~|~1~|~1~|~No package-scoped "$VERSION" variable found~|~See page 404 of PBP~|~Modules::RequireVersionVar~||~
+t/futuretransactions.t~|~2~|~13~|~12~|~Double-sigil dereference~|~See page 228 of PBP~|~References::ProhibitDoubleSigils~||~
+t/futuretransactions.t~|~2~|~13~|~21~|~4 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+t/futuretransactions.t~|~2~|~19~|~13~|~3 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~
+t/futuretransactions.t~|~2~|~39~|~42~|~Quotes used with a string containing no non-whitespace characters~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitEmptyQuotes~||~
+t/futuretransactions.t~|~2~|~41~|~42~|~Quotes used with a string containing no non-whitespace characters~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitEmptyQuotes~||~
+t/futuretransactions.t~|~2~|~54~|~42~|~Quotes used with a string containing no non-whitespace characters~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitEmptyQuotes~||~
+t/futuretransactions.t~|~2~|~57~|~42~|~Quotes used with a string containing no non-whitespace characters~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitEmptyQuotes~||~
+t/futuretransactions.t~|~2~|~58~|~42~|~Quotes used with a string containing no non-whitespace characters~|~See page 53 of PBP~|~ValuesAndExpressions::ProhibitEmptyQuotes~||~
+t/futuretransactions.t~|~2~|~65~|~34~|~-3 is not one of the allowed literal values (0, 1, 2). Use the Readonly or Const::Fast module or the "constant" pragma instead~|~Unnamed numeric literals make code less maintainable~|~ValuesAndExpressions::ProhibitMagicNumbers~||~

@@ -1,0 +1,35 @@
+plugins {
+    id "java-library"
+    id "jacoco"
+}
+
+repositories {
+    jcenter()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+}
+
+jacoco {
+    toolVersion = '0.8.6'
+}
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}
+
+test {
+    finalizedBy jacocoTestReport 
+}
+
+dependencies {
+    api group: 'org.sonarsource.sslr', name: 'sslr-core', version: '1.23'
+    testImplementation group: 'org.sonarsource.sslr', name: 'sslr-testing-harness', version: '1.23'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.11.1'
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '2.23.4'
+}
+
