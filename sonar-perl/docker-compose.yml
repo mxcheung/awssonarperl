@@ -17,3 +17,24 @@ services:
     build: ./perl/mailslot4
     environment:
       - SONAR_HOST_URL=http://ec2-13-238-217-10.ap-southeast-2.compute.amazonaws.com:9000
+  mailslot5:
+    build: ./perl/mailslot5
+    environment:
+      - SONAR_HOST_URL=http://ec2-13-238-217-10.ap-southeast-2.compute.amazonaws.com:9000
+  mailslot6:
+    build: ./perl/mailslot6
+    environment:
+      - SONAR_HOST_URL=http://ec2-13-238-217-10.ap-southeast-2.compute.amazonaws.com:9000
+  mailslot7:
+    build: ./perl/mailslot7
+    environment:
+      - SONAR_HOST_URL=http://ec2-13-238-217-10.ap-southeast-2.compute.amazonaws.com:9000
+  mailslot8:
+    build: ./perl/mailslot8
+    environment:
+      - SONAR_HOST_URL=http://ec2-13-238-217-10.ap-southeast-2.compute.amazonaws.com:9000
+  mailslot9:
+    build: ./perl/mailslot9
+    environment:
+      - SONAR_HOST_URL=http://ec2-13-238-217-10.ap-southeast-2.compute.amazonaws.com:9000
+
