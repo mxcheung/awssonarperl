@@ -18,12 +18,12 @@ http://ec2-13-54-11-135.ap-southeast-2.compute.amazonaws.com:9000/projects?sort=
 
 
 # Test
-
+```
 cd /home/ec2-user/awsmc/awssonarperl/sonar-perl/perl/mailslot5
 perlcritic --cruel --quiet --verbose "%f~|~%s~|~%l~|~%c~|~%m~|~%e~|~%p~||~%n" lib t > perlcritic_report.txt
 prove -t -a testReport.tgz
 cover -test -report SonarGeneric
-
+```
 
 # Docker
 
