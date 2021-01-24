@@ -29,9 +29,10 @@ cover -test -report SonarGeneric
 
 # Docker
 
+```
 docker-compose build mailslot4 mailslot5
 docker-compose run mailslot4 mailslot5
-
+```
 
 
 # Links
