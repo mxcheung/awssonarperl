@@ -3,9 +3,11 @@ awssonarperl
 
 # Environment
 
+```
 export PATH="/home/ec2-user/perl5/lib/perl5:$PATH"
 export PERL5LIB=/home/ec2-user/perl5/lib/perl5
 export PATH="/home/ec2-user/perl5/bin:$PATH"
+```
 
 # Start up
 
