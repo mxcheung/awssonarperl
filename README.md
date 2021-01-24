@@ -31,7 +31,12 @@ cover -test -report SonarGeneric
 
 ```
 docker-compose build mailslot4 mailslot5
-docker-compose run mailslot4 mailslot5
+
+
+cd /home/ec2-user/awsmc/awssonarperl/sonar-perl/
+docker-compose build mailslot6
+docker-compose run mailslot6
+
 ```
 
 
