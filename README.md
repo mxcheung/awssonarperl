@@ -41,7 +41,7 @@ docker-compose run mailslot6
 
 
 # Links
-
+https://awstip.com/installing-sonarqube-on-aws-ec2-instance-and-integrating-it-with-aws-codepipeline-abec99416ba4
 https://gist.github.com/npearce/6f3c7826c7499587f00957fee62f8ee9
 
 http://54.252.193.146:9000/about
