@@ -48,3 +48,5 @@ http://54.252.193.146:9000/about
 
 https://github.com/sonar-perl/sonar-perl
 https://hub.docker.com/r/sonarperl/sonar-perl
+
+https://awstip.com/installing-sonarqube-on-aws-ec2-instance-and-integrating-it-with-aws-codepipeline-abec99416ba4
