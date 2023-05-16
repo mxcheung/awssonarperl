@@ -45,6 +45,19 @@ docker-compose run mailslot6
 ```
 
 
+# copy code
+
+```
+cp ~/environment/awssonarperl/mailslot1/perlcritic_report.txt ~/environment/awssonarperl/sonar-perl/perl/Dancer/
+cp ~/environment/awssonarperl/mailslot1/testReport.tgz  ~/environment/awssonarperl/sonar-perl/perl/Dancer/
+cp ~/environment/awssonarperl/mailslot1/lib/file_processor.pm ~/environment/awssonarperl/sonar-perl/perl/Dancer/lib/
+cp ~/environment/awssonarperl/mailslot1/t/report.t ~/environment/awssonarperl/sonar-perl/perl/Dancer/t/
+cd ~/environment/awssonarperl/sonar-perl/
+docker-compose build dancer
+docker-compose run dancer
+```
+
+
 # Links
 https://awstip.com/installing-sonarqube-on-aws-ec2-instance-and-integrating-it-with-aws-codepipeline-abec99416ba4
 https://gist.github.com/npearce/6f3c7826c7499587f00957fee62f8ee9
