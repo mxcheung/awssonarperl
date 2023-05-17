@@ -48,6 +48,8 @@ docker-compose run mailslot6
 # copy code
 
 ```
+rm ~/environment/awssonarperl/sonar-perl/perl/Dancer/lib/*.pm
+rm ~/environment/awssonarperl/sonar-perl/perl/Dancer/t/*.pl
 cp ~/environment/awssonarperl/mailslot1/perlcritic_report.txt ~/environment/awssonarperl/sonar-perl/perl/Dancer/
 cp ~/environment/awssonarperl/mailslot1/testReport.tgz  ~/environment/awssonarperl/sonar-perl/perl/Dancer/
 cp ~/environment/awssonarperl/mailslot1/lib/file_processor.pm ~/environment/awssonarperl/sonar-perl/perl/Dancer/lib/
@@ -55,6 +57,18 @@ cp ~/environment/awssonarperl/mailslot1/t/report.t ~/environment/awssonarperl/so
 cd ~/environment/awssonarperl/sonar-perl/
 docker-compose build dancer
 docker-compose run dancer
+
+rm ~/environment/awssonarperl/sonar-perl/perl/mailslot4/lib/*.pm
+rm ~/environment/awssonarperl/sonar-perl/perl/mailslot4/t/*.pl
+cp ~/environment/awssonarperl/mailslot2/perlcritic_report.txt ~/environment/awssonarperl/sonar-perl/perl/mailslot4/
+cp ~/environment/awssonarperl/mailslot2/testReport.tgz  ~/environment/awssonarperl/sonar-perl/perl/mailslot4/
+cp ~/environment/awssonarperl/mailslot2/lib/REPORT.pm ~/environment/awssonarperl/sonar-perl/perl/mailslot4/lib/
+cp ~/environment/awssonarperl/mailslot2/t/report.t ~/environment/awssonarperl/sonar-perl/perl/mailslot4/t/
+cd ~/environment/awssonarperl/sonar-perl/
+docker-compose build mailslot4
+docker-compose run mailslot4
+
+
 ```
 
 
