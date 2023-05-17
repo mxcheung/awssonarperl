@@ -68,6 +68,16 @@ cd ~/environment/awssonarperl/sonar-perl/
 docker-compose build mailslot4
 docker-compose run mailslot4
 
+rm ~/environment/awssonarperl/sonar-perl/perl/mailslot5/lib/*.pm
+rm ~/environment/awssonarperl/sonar-perl/perl/mailslot5/t/*.pl
+cp ~/environment/awssonarperl/mailslot2/perlcritic_report.txt ~/environment/awssonarperl/sonar-perl/perl/mailslot5/
+cp ~/environment/awssonarperl/mailslot2/testReport.tgz  ~/environment/awssonarperl/sonar-perl/perl/mailslot5/
+cp ~/environment/awssonarperl/mailslot2/lib/*.* ~/environment/awssonarperl/sonar-perl/perl/mailslot5/lib/
+cp ~/environment/awssonarperl/mailslot2/t/*.* ~/environment/awssonarperl/sonar-perl/perl/mailslot5/t/
+cd ~/environment/awssonarperl/sonar-perl/
+docker-compose build mailslot5
+docker-compose run mailslot5
+
 
 ```
 
